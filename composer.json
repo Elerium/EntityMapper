@@ -1,0 +1,20 @@
+{
+	"name": "elerium/entityMapper",
+	"version": "1.0.0",
+	"require": {
+		"php": ">=5.3.3",
+		"doctrine/orm": "2.*",
+		"elerium/exceptions": "*"
+	},
+	"require-dev": {
+		"nette/tester": "dev-master"
+	},
+	"autoload": {
+		"psr-0": {
+			"Elerium": ""
+		},
+		"classmap": [
+			"Elerium/Doctrine/exceptions.php"
+		]
+	}
+}
