@@ -4,7 +4,7 @@
 	"require": {
 		"php": ">=5.3.3",
 		"doctrine/orm": "2.*",
-		"elerium/exceptions": "*"
+		"elerium/exceptions": "dev-master"
 	},
 	"require-dev": {
 		"nette/tester": "dev-master"
